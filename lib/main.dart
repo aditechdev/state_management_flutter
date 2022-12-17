@@ -19,6 +19,11 @@ class MyApp extends StatelessWidget {
   }
 }
 
+class Contact {
+  final String name;
+  const Contact({required this.name});
+}
+
 class Home extends StatelessWidget {
   const Home({super.key});
 
